@@ -69,7 +69,12 @@ void deleteNode(Node *prev, Node *delNode)
 Node *revList(Node *head)
 {
     // Always keep track of the last node
-    // added to the new linked list.
+    // added to the new linked list. Note: this
+    // is not the last node in the list, only
+    // the last one ADDED to the list (actually
+    // the FIRST node when all is said and done,
+    // because we're adding nodes at the head of
+    // the list, not the far end).
     Node *last = NULL;
 
     // While the list passed to this function still has nodes...
