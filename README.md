@@ -52,12 +52,14 @@ command line and everything should run correctly.
 
 ##What does the demo...demo?
 
-1. The content of the input file is read into a linked list.  2. A new
-node is added to the list after node "5," or at the beginning of the
-linked list if there is no node "5".  3. The new node is deleted.  4. A
-new linked list is created that has the content from the original list but
-in reverse order.  5. A new linked list is created that is a copy of the
-reversed linked list.  6. All lists are destroyed.
+1. The content of the input file is read into a linked list.  
+2. A new node is added to the list after node "5," or at the beginning of the
+linked list if there is no node "5".  
+3. The new node is deleted.  
+4. A new linked list is created that has the content from the original list but
+in reverse order.  
+5. A new linked list is created that is a copy of the reversed linked list.  
+6. All lists are destroyed.
 
 Phases 2-5 print the results to the console.
 
